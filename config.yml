@@ -1,0 +1,20 @@
+port: ":3003"
+mode: dev
+
+user: "winddies"
+
+redis:
+  addr: "localhost:6379"
+  password: "zhangheng123"
+  db: "2"
+
+mongo:
+  db: "article"
+  addr: "localhost:27017"
+  password: "zhangheng123"
+
+logLevel: "debug"
+
+session:
+  name: "winddies"
+  secret: "aHVhbmdodW5n"
